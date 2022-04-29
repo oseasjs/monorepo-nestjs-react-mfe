@@ -1,4 +1,4 @@
-# Server Module
+# Config Module
 
 _TODO_
 
