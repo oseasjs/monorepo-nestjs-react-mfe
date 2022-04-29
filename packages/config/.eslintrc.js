@@ -25,7 +25,11 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'space-before-function-paren': 'off',
-    'no-useless-constructor': 'off'
+    'no-useless-constructor': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+    'react/prop-types': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off'
   },
   settings: {
     'import/resolver': {

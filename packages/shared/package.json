@@ -1,6 +1,14 @@
 {
   "name": "@monorepo-nestjs-react-mfe/shared",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "src/index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3"
+  },
+  "devDependencies": {
+    "@monorepo-nestjs-react-mfe/config": "*"
+  }
 }
