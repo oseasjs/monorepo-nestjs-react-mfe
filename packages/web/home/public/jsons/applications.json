@@ -1,0 +1,17 @@
+{
+    "local": {
+        "homeUrl": "http://localhost:9020/",
+        "checkoutUrl": "http://localhost:9021/",
+        "searchUrl": "http://localhost:9022/"
+    },
+    "github": {
+        "homeUrl": "https://oseasjs.github.io/module-federation-react/home/",
+        "checkoutUrl": "https://oseasjs.github.io/module-federation-react/checkout/",
+        "searchUrl": "https://oseasjs.github.io/module-federation-react/search/"
+    },
+    "vercel": {
+        "homeUrl": "https://module-federation-react-home.vercel.app/",
+        "checkoutUrl": "https://module-federation-react-checkout.vercel.app/",
+        "searchUrl": "https://module-federation-react-search.vercel.app/"
+    }
+}
