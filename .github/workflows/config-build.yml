@@ -3,7 +3,7 @@ name: Config - Build & Deploy
 on:
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - 'packages/config/**'
 
