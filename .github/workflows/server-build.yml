@@ -1,0 +1,34 @@
+name: Server - Build & Deploy
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths:
+      - 'packages/server/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Run Linter
+        run: yarn lint
+
+      - name: Run Unit Tests
+        run: yarn test
+
+      - name: Deploy
+        run: echo "Server Deployed"
+
