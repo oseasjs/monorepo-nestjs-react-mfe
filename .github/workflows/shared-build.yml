@@ -8,7 +8,7 @@ on:
       - 'packages/shared/**'
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
