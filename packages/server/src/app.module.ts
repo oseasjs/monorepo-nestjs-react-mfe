@@ -1,10 +1,20 @@
 import { Module } from '@nestjs/common'
-import { AppController } from './app.controller'
-import { AppService } from './app.service'
+import { TypeOrmModule } from '@nestjs/typeorm'
+import { PokemonModule } from './pokemon/pokemon.module'
+import { MenuModule } from './menu/menu.module'
 
 @Module({
-  imports: [],
-  controllers: [AppController],
-  providers: [AppService]
+  imports: [
+    PokemonModule,
+    TypeOrmModule.forRoot({
+      type: 'sqlite',
+      database: 'pokemon.db',
+      entities: [__dirname.concat('/**/*.entity{.ts,.js}')],
+      synchronize: true
+    }),
+    MenuModule
+  ],
+  controllers: [],
+  providers: []
 })
 export class AppModule {}

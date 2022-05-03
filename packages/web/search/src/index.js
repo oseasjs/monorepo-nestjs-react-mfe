@@ -1,4 +1,4 @@
-fetch('https://oseasjs.github.io/module-federation-react/home/applications.json')
+fetch('http://localhost:3000/menu')
   .then(resp => resp.json())
   .then(data => {
     window.homeUrlLocal = data.local.homeUrl
