@@ -29,16 +29,6 @@ Monorepo project with modules: Web, Server, Shared Functions and Shared Configur
 | Master        | ![CI](https://github.com/oseasjs/microfrontend-single-spa/workflows/CI/badge.svg?branch=master)  | [![codecov](https://codecov.io/gh/oseasjs/microfrontend-single-spa/branch/master/graph/badge.svg)](https://codecov.io/gh/oseasjs/microfrontend-single-spa/branch/master)  |
 
 
-## This project was bootstrapped with:
-- [Node](https://nodejs.org/en/docs/);
-- [ReactJS](https://pt-br.reactjs.org/docs/getting-started.html);
-- [Single-SPA](https://single-spa.js.org/docs/getting-started-overview);
-- [Mocky IO](https://designer.mocky.io/);
-- [Github Pages](https://docs.github.com/en/pages);
-- [Github Actions](https://docs.github.com/pt/actions);
-- [Netlify](https://docs.netlify.com/);
-
-
 ## Monorepo Modules
 
 * packages/config
