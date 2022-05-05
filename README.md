@@ -18,17 +18,6 @@ Monorepo project with modules: Web, Server, Shared Functions and Shared Configur
 - [Module Federation](https://webpack.js.org/concepts/module-federation/);
 - [Github Actions](https://docs.github.com/pt/actions);
 
-
-# Microfrontend with Single SPA and React
-
-### Build Branches Status
-
-| Branch        | Build         | Coverage  |
-| ------------- |:-------------:| ---------:|
-| Develop       | ![CI](https://github.com/oseasjs/microfrontend-single-spa/workflows/CI/badge.svg?branch=develop) | [![codecov](https://codecov.io/gh/oseasjs/microfrontend-single-spa/branch/develop/graph/badge.svg)](https://codecov.io/gh/oseasjs/microfrontend-single-spa/branch/develop) |
-| Master        | ![CI](https://github.com/oseasjs/microfrontend-single-spa/workflows/CI/badge.svg?branch=master)  | [![codecov](https://codecov.io/gh/oseasjs/microfrontend-single-spa/branch/master/graph/badge.svg)](https://codecov.io/gh/oseasjs/microfrontend-single-spa/branch/master)  |
-
-
 ## Monorepo Modules
 
 * packages/config
